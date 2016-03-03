@@ -33,47 +33,48 @@
 body	{
 	display: block;
 	background-color: seagreen; 
-	width:800px;
-	margin:0 auto;
+	border: 10px;
+	max-width:750px;
+	margin: 10px 275px 0 275px;
 	clear:both;
 }
-.bodydiv	{
+div.body	{
 	display: block;
 	background-color: seagreen; 
-	right: 1px;
-	width: 800px;
-	padding-bottom:10px;
-	padding-top: 5px;
-	margin-left: 10px;
-	padding-right: 10px;
+	border: 10px;
+	max-width:750px;
+	margin: 20px 20px 0 20px;
+	clear:both;
+	padding: 10px 20px 10px 20px;
 }
 header {
 	background-color: seagreen;
-	width: 500px;
-	margin-right: 10px;
-	margin-left: 92px;
-	padding-left: 50px;
-	padding-right: 10px;
 }
 h1		{
-	color: blue; 
+	color: midnightblue; 
 	size: 30px;
 	font-family: Bellota-Bold;
 	word-spacing: 5px;
 }
-.h1BlockQuote		{
-	color: blue; 
+h1.BlockQuote		{
+	color: midnightblue; 
 	size: 30px;
 	font-family: Bellota-Bold;
 	word-spacing: 5px;
 }
 h2		{
-	color: blue;
+	color: midnightblue;
 	size: 25px;
 	font-family: timeburnerbold;
 	word-spacing: 5px;
 }
 p 		{
+	color: goldenrod;
+	size: 20px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+p.sidebar	{
 	color: goldenrod;
 	size: 20px;
 	font-family: Bellota-Light;
@@ -96,7 +97,7 @@ small		{
 	font-family: Bellota-Light;
 	word-spacing: 5px;
 }
-.bigIndent		{
+blockquote.bigIndent		{
 	color: goldenrod;
 	size: 20px;
 	font-family: Bellota-Light;
@@ -113,48 +114,47 @@ footer 	{
 	padding-left: 150px;
 }
 a:link    {
-	color:goldenrod; 
+	color:gold; 
 	background-color:transparent; 
 	text-decoration:underline;
 }
 a:visited {
-	color:lightcoral; 
+	color:darkred; 
 	background-color:transparent; 
 	text-decoration:underline;
 }
 a:hover   {
-	color:lightcoral; 
+	color:darkred; 
 	background-color:transparent; 
 	text-decoration:underline;
 }
 a:active  {
-	color:goldenrod; 
+	color:gold; 
 	background-color:transparent; 
 	text-decoration:underline;
 }
-.sidebarOne {
-	background-color: rgba(46, 139, 87, 0.50); 
+div.sidebarOne {
+	background-color: rgba(64, 224, 208, 0.50); 
 	position: absolute;
-	top:0; 
+	top: 0; 
 	bottom: -2000px; 
 	left: 1px;
-	width: 250px;
+	width: 300px;
 	margin: 0 auto;
-	clear: both;
+	clear: all;
 }
-.sidebarTwo {
-	background-color: rgba(46, 139, 87, 0.50);
+div.sidebarTwo {
+	background-color: rgba(64, 224, 208, 0.50);
 	position: absolute;
 	top: 0; 
 	bottom:-2000px; 
-	right:1px;
-	width: 250px;
+	right: 1px;
+	width: 300px;
 	margin: 0 auto;
-	clear: both;
-	padding-left: 1px;
+	clear: all;
+	padding-left: 10px;
 }
-.ArabicIndent {
-	dir: ltr;
-	lang: ar;
+p.ArabicIndent {
+	direction: ltr;
 	color: black;
 }
