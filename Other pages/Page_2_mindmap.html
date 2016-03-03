@@ -20,15 +20,9 @@
 	</header>
 	<body>
 		<!-- Use this area to fill in the "body" element -->
-		<script>
-			document.addEventListener('DOMContentLoaded', function(){
-			var imgs = document.querySelectorAll('img');
-			Array.prototype.forEach.call(imgs, function(el, i) {
-            if (el.tabIndex <= 0) el.tabIndex = 10000;
-			});
-			});
-		</script>
-		<img src="../Images/bubbl.png" alt="Mind Map" width="730px"/>
+		<div class="grow pic">
+			<img src="../Images/bubbl.png" alt="Mind Map" width="730px"/>
+		</div>
 	</body>
 	</div> <!-- The end of the "body" div -->
 	<aside>
@@ -36,10 +30,11 @@
 			<h1 format="title"> Contents </h1>
 			<!-- These are simply placemarkers, they don't lead anywhere yet. Fill them in! -->
 			<ul>
-				<li><a href="Other Pages/Page_2_mindmap.html"> My MindMaps </a> </li>
-				<li><a href="Other Pages/Page_3_narrowedmindmap.html"> My Research Topic </a> </li>
-				<li><a href="Other Pages/Page_4_questions.html">Some Questions</a> </li>
-				<li><a href="Other Pages/Page_5_pre-existingsites.html">Analysis of other websites</a> </li>
+				<li><a href="Page_2_mindmap.html"> My MindMaps </a> </li>
+				<li><a href="Page_3_narrowedmindmap.html"> My Research Topic </a> </li>
+				<li><a href="Page_4_questions.html">Some Questions</a> </li>
+				<li><a href="Page_5_pre-existingsites.html">Analysis of other websites</a> </li>
+				<li><a href="../index.html">Go home</a></li>
 			</ul>
 			<!-- You might want to remove your social media for a Design project, eh? How about School email and stuff like that? -->
 			<p class="sidebar"> &nbsp Check out my: </p> <br /> 
