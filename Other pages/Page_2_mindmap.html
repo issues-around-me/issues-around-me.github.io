@@ -20,6 +20,14 @@
 	</header>
 	<body>
 		<!-- Use this area to fill in the "body" element -->
+		<script>
+			document.addEventListener('DOMContentLoaded', function(){
+			var imgs = document.querySelectorAll('img');
+			Array.prototype.forEach.call(imgs, function(el, i) {
+            if (el.tabIndex <= 0) el.tabIndex = 10000;
+			});
+			});
+		</script>
 		<img src="../Images/bubbl.png" alt="Mind Map" width="730px"/>
 	</body>
 	</div> <!-- The end of the "body" div -->

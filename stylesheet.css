@@ -158,3 +158,11 @@ p.ArabicIndent {
 	direction: ltr;
 	color: black;
 }
+img {
+    cursor: pointer;
+    transition: -webkit-transform 0.1s ease
+}
+img:focus {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+}
