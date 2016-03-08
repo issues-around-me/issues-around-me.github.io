@@ -1,49 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" type="css" href="stylesheet.css">
+		<link rel="stylesheet" type="css" href="../stylesheet.css" />
 		<Title> Home </title> <!-- Remember, this doesn't show up on the page -->
 	</head>
 	<div class="body"> <!-- Ooh, "classy" :'D -->
 	<header>
 		<!-- Where the actual text starts -->
-		<small>
-			<h1>Hello!</h1>
-			<h2>This is a project I am working on for my Grade 9 Design class!</h2>
-			<p> This website is still in development, so please excuse any errors. </p>
-			<p> Enjoy the site! </p>
-		</small>
+		<h1>Hello!</h1>
+		<h2>This is a project I am working on for my Grade 9 Design class!</h2>
+		<p> This website is still in development, so please excuse any errors. </p>
+		<p> Enjoy the site! </p>
 	</header>
 	<body>
-		<h1>You may be thinking, "What is this project?"</h1>
-		<h2>The answer is simple</h2>
-		<p> My class has been given the task for each individual to create a website about a certain issue.<br />
-			In order to confuse people, which I find for some reason entertaining, I have made a website explaining how I made that website<br />
-			#inception 
-		</p>
 		<!-- Use this area to fill in the "body" element -->
 	</body>
 	</div> <!-- The end of the "body" div -->
 	<aside>
 		<div class="sidebarOne"> <!-- the sidebar on the right -->
 			<h1 format="title"> Contents </h1>
-			<ul class="sidebar">
-				<li class="sidebar">Inquiry and Analysis</li>
-					<ul class="innersidebar">
-						<li class="sidebar"><a href="index.html">Home</a></li>
-						<li class="sidebar"><a href="Other Pages/Page_2_mindmap.html">My MindMaps </a></li>
-						<li class="sidebar"><a href="Other Pages/Page_3_narrowedmindmap.html">My Research Topic</a></li>
-						<li class="sidebar"><a href="Other Pages/Page_4_questions.html">Some Questions</a></li>
-						<li class="sidebar"><a href="Other Pages/Page_5_pre-existingsites.html">Analysis of other websites</a></li>
-						<li class="sidebar"><a href="../Other Pages/Page_6_ansquestions.html">Research Questions (Answered)</a></li>
-					</ul>
-				<li class="sidebar">Developing Ideas</li>
-				<li class="sidebar">Creating a Solution</li>
-				<li class="sidebar">Evaluating</li>
-				<li class="sidebar"><a href="Other Pages/WC.html">Works Cited</a></li>
+			<!-- These are simply placemarkers, most don't lead anywhere yet. Fill them in! -->
+			<ul>
+				<li><a href="Page_2_mindmap.html"> My MindMaps </a> </li>
+				<li><a href="Page_3_narrowedmindmap.html"> My Research Topic </a> </li>
+				<li><a href="Page_4_questions.html">Some Questions</a> </li>
+				<li><a href="Page_5_pre-existingsites.html">Analysis of other wbsites</a> </li>
+				<li><a href="../index.html">Home</a></li>
 			</ul>
 			<!-- You might want to remove your social media for a Design project, eh? How about School email and stuff like that? -->
-			<!--
 			<p class="sidebar"> &nbsp Check out my: </p> <br /> 
 			<big>
 				&nbsp <a href="https://tumblr.com/blog/casuallycasualhottub" target="_blank">Tumblr</a> <br /> 
@@ -52,17 +36,16 @@
 				&nbsp <a href="https://twitter.com/dadbigfoot" target="_blank">Twitter</a> <br />
 				&nbsp <a href="https://www.youtube.com/channel/UCCZ4RMJv7D1YVesMCjoO5DQ" target="_blank">Youtube</a> <br />
 			</big>
-			-->
 		</div>
 		<div class="sidebarTwo"> <!-- The sidebar on the left -->
 			<!-- Try including some info on this sidebar, it looks pretty bland -->
 			<h1>&nbsp Hello &nbsp </h1>
 			<h2>&nbsp Welcome to my <br />&nbsp website!</h2> <!-- OMG that is so not lame at all *sarcasm* -->
-			<p class="sidebar"> &nbsp Click <a href="Other Pages/Page_2_mindmap.html">here</a>To go to the next page.</p>
+			<p class="sidebar"> &nbsp
 		</div>
 	</aside>
 	<footer>
-		<small>2016&copy; Ghassan Younes <br />
+		<small>&copy; TheBigFoot'sDad <br />
 			All rights reserved <br />
 		</small>
 		<!-- It's a design project for a teacher from Canada, with chinese roots. Not a Lebanese person born and raised in Lebanon, you don't need this.

@@ -5,17 +5,14 @@
 		<Title> Home </title> <!-- Remember, this doesn't show up on the page -->
 	</head>
 	<div class="body"> <!-- Ooh, "classy" :'D -->
-	<header> <!-- Google translate element isn't working properly. IDKY -->
-		<div id="google_translate_element"></div><script type="text/javascript">
-		function googleTranslateElementInit() {
-			new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT, multilanguagePage: true}, 'google_translate_element');
-		}
-		</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<header>
 		<!-- Where the actual text starts -->
-		<h1>Hello!</h1>
-		<h2>This is a project I am working on for my Grade 9 Design class!</h2>
-		<p> This website is still in development, so please excuse any errors. </p>
-		<p> Enjoy the site! </p>
+		<small>
+			<h1>Hello!</h1>
+			<h2>This is a project I am working on for my Grade 9 Design class!</h2>
+			<p> This website is still in development, so please excuse any errors. </p>
+			<p> Enjoy the site! </p>
+		</small>
 	</header>
 	<body>
 		<!-- Use this area to fill in the "body" element -->
@@ -27,15 +24,23 @@
 	<aside>
 		<div class="sidebarOne" id="sidebarOne"> <!-- the sidebar on the right -->
 			<h1 format="title"> Contents </h1>
-			<!-- These are simply placemarkers, they don't lead anywhere yet. Fill them in! -->
-			<ul>
-				<li><a href="Page_2_mindmap.html"> My MindMaps </a> </li>
-				<li><a href="Page_3_narrowedmindmap.html"> My Research Topic </a> </li>
-				<li><a href="Page_4_questions.html">Some Questions</a> </li>
-				<li><a href="Page_5_pre-existingsites.html">Analysis of other websites</a> </li>
-				<li><a href="../index.html">Home</a></li>
+			<ul class="sidebar">
+				<li class="sidebar">Inquiry and Analysis</li>
+					<ul class="innersidebar">
+						<li class="sidebar"><a href="../index.html">Home</a></li>
+						<li class="sidebar"><a href="../Other Pages/Page_2_mindmap.html">My MindMaps</a></li>
+						<li class="sidebar"><a href="../Other Pages/Page_3_narrowedmindmap.html">My Research Topic</a></li>
+						<li class="sidebar"><a href="../Other Pages/Page_4_questions.html">Some Questions</a></li>
+						<li class="sidebar"><a href="../Other Pages/Page_5_pre-existingsites.html">Analysis of other websites</a></li>
+						<li class="sidebar"><a href="../Other Pages/Page_6_ansquestions.html">Research Questions (Answered)</a></li>
+					</ul>
+				<li class="sidebar">Developing Ideas</li>
+				<li class="sidebar">Creating a Solution</li>
+				<li class="sidebar">Evaluating</li>
+				<li class="sidebar"><a href="../Other Pages/WC.html">Works Cited</a></li>
 			</ul>
 			<!-- You might want to remove your social media for a Design project, eh? How about School email and stuff like that? -->
+			<!--
 			<p class="sidebar"> &nbsp Check out my: </p> <br /> 
 			<big>
 				&nbsp <a href="https://tumblr.com/blog/casuallycasualhottub" target="_blank">Tumblr</a> <br /> 
@@ -44,16 +49,17 @@
 				&nbsp <a href="https://twitter.com/dadbigfoot" target="_blank">Twitter</a> <br />
 				&nbsp <a href="https://www.youtube.com/channel/UCCZ4RMJv7D1YVesMCjoO5DQ" target="_blank">Youtube</a> <br />
 			</big>
+			-->
 		</div>
 		<div class="sidebarTwo" id="sidebarTwo"> <!-- The sidebar on the left -->
 			<!-- Try including some info on this sidebar, it looks pretty bland -->
 			<h1>&nbsp Hello &nbsp </h1>
-			<h2>&nbsp Welcome to my <br />&nbsp website!</h2> <!-- OMG that is so not lame at all *sarcasm* -->
-			<p class="sidebar"> &nbsp
+			<h2>&nbsp Welcome to my <br />&nbsp website!</h2> <!-- Is this cheddar? Because this is CHEESY! -->
+			<p class="sidebar"> &nbsp Click <a href="Page_3_narrowedmindmap.html">here</a> To go to the next page</p>
 		</div>
 	</aside>
 	<footer>
-		<small>&copy; TheBigFoot'sDad <br />
+		<small>2016&copy; Ghassan Younes<br />
 			All rights reserved <br />
 		</small>
 		<!-- 
