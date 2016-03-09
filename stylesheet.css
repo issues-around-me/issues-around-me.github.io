@@ -248,7 +248,7 @@ p.ArabicIndent {
 	direction: ltr;
 	color: black;
 }
-div.trythattranslate {
+span.trythattranslate {
 	display: block;
 	background-color: lightcyan; 
 	border: 10px 30px 10px 20px;
