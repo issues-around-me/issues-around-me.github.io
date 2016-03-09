@@ -248,6 +248,15 @@ p.ArabicIndent {
 	direction: ltr;
 	color: black;
 }
+div.google_translate_element {
+	display: block;
+	background-color: lightcyan; 
+	border: 10px 30px 10px 20px;
+	max-width:850px;
+	margin: 10px 20px 0 10px;
+	clear:both;
+	padding: 10px 30px 10px 20px;
+}
 /* iframe */
 iframe{
     -ms-transform:scale(0.7);
