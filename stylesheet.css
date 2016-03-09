@@ -204,7 +204,7 @@ div.sidebarOneG {
 	background-color: rgba(64, 224, 208, 0.50); 
 	position: absolute;
 	top: 0; 
-	bottom: -750px; 
+	bottom: -1000px; 
 	left: 1px;
 	width: 275px;
 	margin: 0 auto;
@@ -215,7 +215,7 @@ div.sidebarTwoG {
 	background-color: rgba(64, 224, 208, 0.50);
 	position: absolute;
 	top: 0; 
-	bottom:-750px; 
+	bottom:-1000px; 
 	right: 1px;
 	width: 275px;
 	margin: 0 auto;
