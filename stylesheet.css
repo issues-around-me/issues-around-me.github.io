@@ -275,7 +275,7 @@ div.sideribOne {
 	margin: 0 auto;
 	clear: all;
 }
-div.sideribTwo {
+/* div.sideribTwo {
 	background-color: rgba(64, 224, 208, 0.50);
 	position: absolute;
 	top: 0; 
@@ -349,7 +349,7 @@ div.sideribTwoW {
 	margin: 0 auto;
 	clear: all;
 	padding-left: 10px;
-}
+} */
 p.ArabicIndent {
 	direction: ltr;
 	color: black;
