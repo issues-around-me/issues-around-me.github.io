@@ -131,6 +131,12 @@ li.sidebar		{
 	font-family: Bellota-Light;
 	word-spacing: 5px;
 }
+li.sidebar2		{
+	color: rgba(250, 250, 250, 0);
+	size: 18px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
 big		{
 	color: dodgerblue;
 	size: 22px;
@@ -159,25 +165,45 @@ footer 	{
 	padding-left: 150px;
 }
 a:link    {
-	color:mediumpurple; 
+	color:#9932CC; 
 	background-color:transparent; 
 	text-decoration:none;
 }
 a:visited {
-	color:mediumpurple; 
+	color:#9932CC; 
 	background-color:transparent; 
 	text-decoration:none;
 }
 a:hover   {
-	color:black; 
+	color: black; 
 	background-color:transparent; 
 	text-decoration:none;
 }
 a:active  {
-	color:mediumpurple; 
+	color:#9932CC; 
 	background-color:transparent; 
 	text-decoration:none;
 }
+/*sidebar image*/
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h1.image { 
+   position: absolute; 
+   top: -20px; 
+   left: 70px; 
+   width: 100%; 
+}
+h1 span { 
+   color: white; 
+   font-family: bold 24px/45px Bellota-Bold;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.0);
+   padding: 10px; 
+}
+/*sidebars*/
 div.sidebarOne {
 	background-color: rgba(64, 224, 208, 0.50); 
 	position: absolute;
@@ -297,4 +323,21 @@ div.wrapper {
 	overflow: hidden;
     height:1000px;
     width:760px;
+}
+/*Drowpdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F0F8FF;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
 }
