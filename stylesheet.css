@@ -163,6 +163,8 @@ footer 	{
 	background-color: lightcyan; 
 	clear: both;
 	padding-left: 150px;
+	float: bottom;
+	position: absolute;
 }
 a:link    {
 	color:#9932CC; 
